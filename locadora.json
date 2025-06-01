@@ -1,0 +1,278 @@
+{
+  "clientes": [
+    {
+      "id": 1,
+      "nome": "Ana Silva",
+      "cpf": "123.456.789-00",
+      "telefone": "(11) 98765-4321",
+      "email": "ana.silva@email.com"
+    },
+    {
+      "id": 2,
+      "nome": "Carlos Souza",
+      "cpf": "987.654.321-00",
+      "telefone": "(21) 91234-5678",
+      "email": "carlos.souza@email.com"
+    },
+    {
+      "id": 3,
+      "nome": "Beatriz Lima",
+      "cpf": "321.654.987-00",
+      "telefone": "(31) 99876-5432",
+      "email": "beatriz.lima@email.com"
+    },
+    {
+      "id": 4,
+      "nome": "Daniel Costa",
+      "cpf": "654.987.321-00",
+      "telefone": "(41) 98765-1122",
+      "email": "daniel.costa@email.com"
+    },
+    {
+      "id": 5,
+      "nome": "Fernanda Ribeiro",
+      "cpf": "789.123.456-00",
+      "telefone": "(51) 97654-2211",
+      "email": "fernanda.ribeiro@email.com"
+    },
+    {
+      "id": 6,
+      "nome": "Gustavo Pereira",
+      "cpf": "159.753.486-00",
+      "telefone": "(61) 96543-3322",
+      "email": "gustavo.pereira@email.com"
+    },
+    {
+      "id": 7,
+      "nome": "Helena Fernandes",
+      "cpf": "258.456.789-00",
+      "telefone": "(71) 99887-6655",
+      "email": "helena.fernandes@email.com"
+    },
+    {
+      "id": 8,
+      "nome": "Igor Almeida",
+      "cpf": "369.258.147-00",
+      "telefone": "(81) 98712-3344",
+      "email": "igor.almeida@email.com"
+    },
+    {
+      "id": 9,
+      "nome": "Juliana Castro",
+      "cpf": "456.123.789-00",
+      "telefone": "(91) 97612-9988",
+      "email": "juliana.castro@email.com"
+    },
+    {
+      "id": 10,
+      "nome": "Lucas Rocha",
+      "cpf": "741.852.963-00",
+      "telefone": "(85) 91123-4455",
+      "email": "lucas.rocha@email.com"
+    }
+  ],
+  "carros": [
+    {
+      "id": 101,
+      "marca": "Toyota",
+      "modelo": "Corolla",
+      "ano": 2022,
+      "placa": "ABC-1234",
+      "disponivel": false
+    },
+    {
+      "id": 102,
+      "marca": "Chevrolet",
+      "modelo": "Onix",
+      "ano": 2023,
+      "placa": "XYZ-5678",
+      "disponivel": false
+    },
+    {
+      "id": 103,
+      "marca": "Ford",
+      "modelo": "Ka",
+      "ano": 2021,
+      "placa": "DEF-2345",
+      "disponivel": true
+    },
+    {
+      "id": 104,
+      "marca": "Honda",
+      "modelo": "Civic",
+      "ano": 2022,
+      "placa": "GHI-3456",
+      "disponivel": false
+    },
+    {
+      "id": 105,
+      "marca": "Volkswagen",
+      "modelo": "Gol",
+      "ano": 2020,
+      "placa": "JKL-4567",
+      "disponivel": false
+    },
+    {
+      "id": 106,
+      "marca": "Renault",
+      "modelo": "Kwid",
+      "ano": 2023,
+      "placa": "MNO-5678",
+      "disponivel": true
+    },
+    {
+      "id": 107,
+      "marca": "Hyundai",
+      "modelo": "HB20",
+      "ano": 2021,
+      "placa": "PQR-6789",
+      "disponivel": false
+    },
+    {
+      "id": 108,
+      "marca": "Fiat",
+      "modelo": "Argo",
+      "ano": 2023,
+      "placa": "STU-7890",
+      "disponivel": true
+    },
+    {
+      "id": 109,
+      "marca": "Nissan",
+      "modelo": "Versa",
+      "ano": 2022,
+      "placa": "VWX-8901",
+      "disponivel": false
+    },
+    {
+      "id": 110,
+      "marca": "Jeep",
+      "modelo": "Renegade",
+      "ano": 2024,
+      "placa": "YZA-9012",
+      "disponivel": true
+    }
+  ],
+  "locacoes": [
+    {
+      "id": 1001,
+      "cliente_id": 1,
+      "carro_id": 101,
+      "data_inicio": "10-05-2025",
+      "data_fim": "15-05-2025",
+      "valor_total": 750.00
+    },
+    {
+      "id": 1002,
+      "cliente_id": 2,
+      "carro_id": 102,
+      "data_inicio": "16-05-2025",
+      "data_fim": "20-05-2025",
+      "valor_total": 600.00
+    },
+    {
+      "id": 1003,
+      "cliente_id": 3,
+      "carro_id": 104,
+      "data_inicio": "01-05-2025",
+      "data_fim": "07-05-2025",
+      "valor_total": 900.00
+    },
+    {
+      "id": 1004,
+      "cliente_id": 4,
+      "carro_id": 105,
+      "data_inicio": "11-05-2025",
+      "data_fim": "14-05-2025",
+      "valor_total": 450.00
+    },
+    {
+      "id": 1005,
+      "cliente_id": 5,
+      "carro_id": 107,
+      "data_inicio": "02-05-2025",
+      "data_fim": "05-05-2025",
+      "valor_total": 500.00
+    },
+    {
+      "id": 1006,
+      "cliente_id": 6,
+      "carro_id": 109,
+      "data_inicio": "12-05-2025",
+      "data_fim": "16-05-2025",
+      "valor_total": 800.00
+    },
+    {
+      "id": 1007,
+      "cliente_id": 7,
+      "carro_id": 106,
+      "data_inicio": "15-05-2025",
+      "data_fim": "18-05-2025",
+      "valor_total": 480.00
+    },
+    {
+      "id": 1008,
+      "cliente_id": 8,
+      "carro_id": 103,
+      "data_inicio": "10-05-2025",
+      "data_fim": "12-05-2025",
+      "valor_total": 300.00
+    },
+    {
+      "id": 1009,
+      "cliente_id": 9,
+      "carro_id": 108,
+      "data_inicio": "05-05-2025",
+      "data_fim": "09-05-2025",
+      "valor_total": 520.00
+    },
+    {
+      "id": 1010,
+      "cliente_id": 10,
+      "carro_id": 110,
+      "data_inicio": "01-05-2025",
+      "data_fim": "03-05-2025",
+      "valor_total": 390.00
+    },
+    {
+      "id": 1011,
+      "cliente_id": 1,
+      "carro_id": 109,
+      "data_inicio": "18-05-2025",
+      "data_fim": "21-05-2025",
+      "valor_total": 600.00
+    },
+    {
+      "id": 1012,
+      "cliente_id": 2,
+      "carro_id": 107,
+      "data_inicio": "22-05-2025",
+      "data_fim": "25-05-2025",
+      "valor_total": 550.00
+    },
+    {
+      "id": 1013,
+      "cliente_id": 3,
+      "carro_id": 103,
+      "data_inicio": "15-05-2025",
+      "data_fim": "17-05-2025",
+      "valor_total": 340.00
+    },
+    {
+      "id": 1014,
+      "cliente_id": 4,
+      "carro_id": 108,
+      "data_inicio": "20-05-2025",
+      "data_fim": "23-05-2025",
+      "valor_total": 580.00
+    },
+    {
+      "id": 1015,
+      "cliente_id": 5,
+      "carro_id": 110,
+      "data_inicio": "25-05-2025",
+      "data_fim": "28-05-2025",
+      "valor_total": 720.00
+    }
+  ]
+}
